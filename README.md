@@ -1,6 +1,6 @@
 
 # masonite-bootstrap-demo
-A demo project with masonite 3 and Boostrap 4
+A demo project with masonite 3 and Boostrap 5
 
 ## Follow Me
 
