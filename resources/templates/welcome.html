@@ -1,0 +1,35 @@
+
+@extends 'app/base.html'
+
+
+@block title
+    Welcome To {{ config('application.name', 'Masonite - Bootstrap') }} 
+@endblock
+
+@block content
+<div class="container-fluid vh-100">
+    <div class="d-flex h-100 align-items-center justify-content-center">
+        <div>
+            <h1 class="display-1 text-center">Masonite 3.0 And Bootstrap 5</h1>
+            <h6 class="text-center fw-bold">Designed Software Craftsmanship</h6>
+            <div class="d-flex justify-content-center">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link  text-dark" aria-current="page" href="https://twitter.com/dilantsasi">Twitter</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">LinkdIn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="https://twitter.com/masoniteproject">Masonite Twitter</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="https://twitter.com/getbootstrap" tabindex="-1"
+                            aria-disabled="true">Bootstrap Twitter</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+@endblock
